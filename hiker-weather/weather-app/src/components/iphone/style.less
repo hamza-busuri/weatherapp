@@ -1,0 +1,173 @@
+@import '~style/helpers';
+
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+ 	url('../../assets/backgrounds/bg.jpg');
+	color: #fff;
+	width: 414px;
+	height: 736px;
+	text-align: center;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.details {
+	 position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+	flex: 4;
+}
+
+ul {
+  white-space: nowrap;
+}
+ul, li {
+
+  list-style: none;
+  display: inline;
+
+}
+
+.date {
+	top: 400px;
+	left: 500px;
+	font-size: 1.7em;
+	font-weight: 400;
+
+}
+.city {
+	flex: 1;
+	position: relative;
+	   		 top: -35px;
+	font-size: 1.7em;
+	font-weight: 400;
+}
+
+.table{
+  position: absolute;
+
+    width: 100%;
+	top: 300px;
+    margin: 0, auto;
+    font-size: 18px;
+}
+
+.tableForm{
+  position: absolute;
+
+    width: 100%;
+	top: 550px;
+    margin: 0, auto;
+    font-size: 18px;
+}
+
+
+hr{
+	color: black;
+
+}
+
+
+.paragraph{
+	color: white;
+}
+
+
+.conditions {
+	flex: 1;
+	position: relative;
+	   		 top: -40px;
+	font-size: 1em;
+}
+.buttonHike{
+	    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    font-size: 18px;
+
+}
+
+.settings{
+ position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+
+}
+
+.settingsIc{
+	position: absolute;
+    bottom: -10px;
+    left: 16px;
+    font-size: 18px;
+
+}
+
+.hikeIc{
+	position: absolute;
+    bottom: -2px;
+    right: 16px;
+    font-size: 18px;
+
+}
+
+
+.temperature {
+	flex: 2;
+	position: relative;
+	   		 top: 30px;
+	margin-top: 0;
+	font-size: 4.8em;
+	font-weight: 300;
+	letter-spacing: -12px;
+}
+.filled:after {
+	content: "°";
+	margin: 0 0 0 1rem;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
+.imageSun{
+position: absolute;
+   		 top: -150px;
+   		 left: 0px;
+//-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+
+        }
+.image{
+position: relative;
+   		 top: -150px;
+-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+
+        }
+.icon{
+	position: relative;
+   	top: -150px;
+}
