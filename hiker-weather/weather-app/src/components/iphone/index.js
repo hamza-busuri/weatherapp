@@ -218,7 +218,7 @@ export default class Iphone extends Component
 				<div class= { style_iphone.container }>
 				<div class= { style_iphone.container }> </div>
 				<div >  {this.state.showIframe ?  <iframe id="myFrame" align="center" width="350" height="300" frameborder="0" style="border:0"
-					 src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDnhFgAWLBSWIzi0W9j8Q8cwP1byX86bV0&q=London" allowfullscreen></iframe> :null}</div>
+					 src="https://www.google.com/maps/embed/v1/search?key=&q=London" allowfullscreen></iframe> :null}</div>
 
 					 
 
